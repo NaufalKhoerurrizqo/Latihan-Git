@@ -15,7 +15,7 @@ function hideError(inputId) {
     const errorElement = document.getElementById(`${inputId}`);
     errorElement.innerText='';
 }
-
+// show error
 form.addEventListener('submit', function (obj) {
     obj.preventDefault();
 
