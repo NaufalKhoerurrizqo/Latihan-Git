@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create New User</h1>
+        <form action="" id="form-registrasi">
+            <div class="yo">
+                <div>
+                <img src="https://static.vecteezy.com/system/resources/previews/002/534/006/original/social-media-chatting-online-blank-profile-picture-head-and-body-icon-people-standing-icon-grey-background-free-vector.jpg" alt="profile">
+                </div>
+                <div>
+                <input type="text" name="firstname" id="first" placeholder="First Name" class="nama">
+                <p id="first-error" class="error"></p>
+                <input type="text" name="lastname" id="last" placeholder="Last Name" class="nama" >
+                <p id="last-error" class="error"></p>
+            </div>
+            </div>
+
+            <div class="ya">
+                <select name="opsi" id="worktype" >
+                    <option value="">-- Select WorkType --</option>
+                    <option value="Programmer">Programmer</option>
+                    <option value="Designer">Designer</option>
+                </select>
+                <p id="worktype-error" class="error"></p>
+            </div>
+
+            <div class="ya">
+                <input type="number" placeholder="Phone Number" id="number">
+                <p id="number-error" class="error"></p>
+            </div>
+
+            <div class ="ya">
+                <input type="email" placeholder="Email" id="email">
+                <p id="email-error" class="error"></p>
+            </div>            
+
+            <div>
+                <input type="password" placeholder="Password" id="password">
+                <p id="password-error" class="error"></p>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
